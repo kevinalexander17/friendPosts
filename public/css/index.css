@@ -1,0 +1,39 @@
+#navegador {
+  height: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /*font-size: 1.5em;*/
+}
+.navbar-brand {
+  width: 100px;
+}
+.web-img-brand {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.img-user {
+  width: 70px;
+  border-radius: 50%;
+}
+.sesion {
+  margin-left: 10px;
+}
+#links > a > img {
+  width: 30px;
+  text-align: center;
+}
+#posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#posts > .card {
+  margin: 20px;
+  width: 500px;
+  height: auto;
+  align-items: center;
+}
+#posts > .card > img {
+  width: 100%;
+  height: 600px;
+}
